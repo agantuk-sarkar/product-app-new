@@ -39,7 +39,7 @@ async function getAllProducts(pageNo, limit) {
   let skip = (pageNo - 1) * limit;
   const all_products = await fetchAllProducts(skip, limit);
   const totalItems = all_products.total;
-  //   console.log(all_products.products);
+
   if (skip + limit > totalItems) {
     hasMoreData = false;
   }
