@@ -5,7 +5,7 @@
 }
 
 .nav-bar {
-  border: 1px solid black;
+  border: transparent;
   height: 4rem;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 
 .logo-and-text-container {
-  border: 1px solid red;
+  border: transparent;
   height: 100%;
   width: 20%;
   display: flex;
@@ -23,7 +23,7 @@
 }
 
 .theme-container {
-  border: 1px solid teal;
+  border: transparent;
   height: 100%;
   width: 20%;
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .logo-image {
-  border: 1px solid blue;
+  border: transparent;
   height: 100%;
   width: 20%;
   border-radius: 50%;
@@ -46,7 +46,7 @@
 }
 
 .theme-icon {
-  border: 1px solid blue;
+  border: transparent;
   height: 100%;
   display: flex;
   align-items: center;
@@ -58,12 +58,12 @@
 }
 
 .product-container {
-  border: 1px solid blue;
+  border: transparent;
   margin-top: 1rem;
 }
 
 .search-and-sortBy-category-container {
-  border: 1px solid red;
+  border: transparent;
   height: 3rem;
   display: flex;
   justify-content: space-between;
@@ -96,7 +96,7 @@
 }
 
 .product-main-card-container {
-  border: 1px solid green;
+  border: transparent;
   margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -105,7 +105,7 @@
 }
 
 .card-container {
-  border: 1px solid black;
+  border: transparent;
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -120,7 +120,7 @@
 }
 
 .text-container {
-  border: 1px solid blue;
+  border: transparent;
   padding: 0.5rem;
 }
 
@@ -170,7 +170,7 @@
 }
 
 .product-main-container{
-  border:1px solid red;
+  border:transparent;
   min-height:20rem;
   width:50%;
   margin:auto;
