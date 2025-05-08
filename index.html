@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product-App</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+    <script src="./index.js" type="module"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="nav-bar"></nav>
+    <!-- main body -->
+    <main class="product-container">
+      <!-- search and sort by category container -->
+      <div class="search-and-sortBy-category-container">
+        <!-- search input -->
+        <input type="text" id="search-input" placeholder="Enter the Product" />
+        <!-- cross button -->
+        <i class="lni lni-xmark-circle"></i>
+        <!-- sorty by category -->
+        <select id="sort-by-category">
+          <option hidden>Sort By Category</option>
+        </select>
+      </div>
+      <!-- products card main container -->
+      <div class="product-main-card-container"></div>
+    </main>
+  </body>
+</html>
